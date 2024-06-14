@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+background-color: rgb(212, 212, 212);
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: palevioletred; */
+}
+
+.product {
+    height: 30vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    height: 100%;
+    width: 90%;
+    /* background-color: #efefef; */
+}
+
+.swiper-wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: lightseagreen; */
+}
+
+.swiper-slide {
+    height: 100%;
+    width: 20%;
+    /* background-color: white; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+
+
+.upper-slide {
+    height: 70%;
+    width: 100%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-slide img {
+    width: 90%;
+}
+
+.lower-slide {
+    height: 30%;
+    width: 100%;
+    /* background-color: darkorchid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-slide p {
+    font-size: 1.1vw;
+}
+.latest1{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 8vw;
+  
+}
+.latest1 h1{
+    font-size: 2vw;
+    font-weight: 500;
+}
+.latest1 h2{
+    font-size: 2vw;
+    color: grey;
+    font-weight: 500;
+}
+
+
+.latest {
+    height: 63vh;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw;
+    padding: 1vw .5vw;
+}
+
+.first-slide {
+    background-image: url(2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.second-slide {
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.third-slide {
+    background-image: url(5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.fourth-slide {
+    background-image: url(store-card-40-apple-pencil-202405.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.fifth-slide {
+    background-image: url(store-card-40-ipad-air-202405.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sixth-slide {
+    background-image: url(store-card-40-iphone-15-pro-202309.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.seventh-slide {
+    background-image: url(store-card-40-macbook-air-202402.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.eight-slide {
+    background-image: url(store-card-40-macbook-pro-202310.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nine-slide {
+    background-image: url(store-card-40-watch-s9-202309_GEO_IN.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.ten-slide {
+    background-image: url(store-card-40-watch-se-202403_GEO_IN.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.eleven-slide {
+    background-image: url(store-card-40-watch-ultra-202309_GEO_IN.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.second-slider {
+    padding: 1vw 1.5vw;
+    border-radius: 15px;
+    
+}
+
+.second-slider p {
+    font-size: .9vw;
+    font-weight: 400;
+}
+
+.second-slider h1 {
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+@media (min-width: 1px) and (max-width: 425px) {
+    .product {
+        height: 20vh;
+        background-color: darkorange;
+    }
+
+    .lower-slide p {
+        font-size: 2vh;
+    }
+
+    .second-slider {
+        padding: 3vh;
+    }
+
+    .second-slider p{
+        font-size: 1.4vh;
+    }
+
+    .second-slider h1 {
+        font-size: 3vh;
+        margin: .3vh 0;
+    }
+}
